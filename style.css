@@ -198,7 +198,7 @@ h1, h2, h3, h4 {
   padding: 11rem 0 6rem;
   color: #fff;
   background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.72)),
-              url('assets/hero-bg.jpg') center / cover no-repeat;
+              url('./Assets/hero-bg.jpg') center / cover no-repeat;
 }
 
 .hero-content {
@@ -322,7 +322,7 @@ h1, h2, h3, h4 {
   padding: 6rem 0;
   color: #fff;
   background: linear-gradient(rgba(14, 19, 33, 0.8), rgba(14, 19, 33, 0.8)),
-              url('assets/Coding solutions background.jpg') center / cover no-repeat;
+              url('./Assets/Coding solutions background.jpg') center / cover no-repeat;
 }
 
 .cta-layout {
