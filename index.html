@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EdTech Mastery offers programming courses, interactive coding challenges, mentor support and personalized learning plans.">
+    <title>EdTech Mastery | Professional Programming Services</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================================
+         HEADER & NAVBAR
+         Fixed, translucent dark bar with circular logo.
+         Full menu from 558px up; hamburger at 557px and below.
+         ============================================ -->
+    <header class="site-header">
+        <nav class="navbar navbar-dark fixed-top" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <img src="assets/logo.jpg" alt="EdTech Mastery logo" class="logo-img">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#home" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link text-nowrap" href="#contact">Contact Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ============================================
+             HERO SECTION
+             Full-width background image, white text, slide-in animation.
+             ============================================ -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Best <span class="text-orange">EdTech</span><br>Company<br>&amp; Programming<br><span class="text-orange">Services</span></h1>
+                    <hr class="hero-divider">
+                    <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque molestiae, alias dignissimos consequuntur voluptatibus aspernatur modi necessitatibus incidunt eos atque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, tempore!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SERVICES SECTION
+             Six cards: 2 columns on desktop, 1 column on small screens.
+             ============================================ -->
+        <section id="services" class="py-section bg-services">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-eyebrow">Services</span>
+                    <h2 class="section-title">Learn Skills</h2>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="card-icon"><i class="fa-solid fa-book" aria-hidden="true"></i></div>
+                        <h3 class="service-title">Interactive Platform</h3>
+                        <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="card-icon"><i class="fa-solid fa-code" aria-hidden="true"></i></div>
+                        <h3 class="service-title">Doubt Support</h3>
+                        <p class="service-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="card-icon"><i class="fa-solid fa-computer-mouse" aria-hidden="true"></i></div>
+                        <h3 class="service-title">Interactive Coding Challenges</h3>
+                        <p class="service-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="card-icon"><i class="fa-solid fa-tablet-screen-button" aria-hidden="true"></i></div>
+                        <h3 class="service-title">Mobile and Tablet Coding!</h3>
+                        <p class="service-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, soluta.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="card-icon"><i class="fa-solid fa-landmark" aria-hidden="true"></i></div>
+                        <h3 class="service-title">Support for Coding Enthusiasts</h3>
+                        <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="card-icon"><i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i></div>
+                        <h3 class="service-title">Customizable Coding Experience</h3>
+                        <p class="service-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             CTA BANNER
+             Heading left and buttons right on wide screens; stacked below 990px.
+             ============================================ -->
+        <section class="cta-banner" aria-labelledby="cta-heading">
+            <div class="container">
+                <div class="cta-layout">
+                    <h2 id="cta-heading" class="cta-title">Coding <span class="text-green">Solutions</span> and <span class="text-orange">Programming</span> Mastery</h2>
+                    <div class="cta-buttons">
+                        <a href="#services" class="btn btn-white btn-cta">Discover More</a>
+                        <a href="#contact" class="btn btn-orange btn-cta">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             ABOUT / COURSE TABLE
+             Stacks into blocks at 768px and below.
+             ============================================ -->
+        <section id="about" class="py-section bg-white">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-eyebrow">About Us</span>
+                    <h2 class="section-title">Know Us Better</h2>
+                    <button type="button" class="btn btn-yellow btn-pill mt-4">Coding Courses</button>
+                </div>
+
+                <div class="table-responsive course-table-wrap">
+                    <table class="table custom-table mb-0">
+                        <thead>
+                            <tr>
+                                <th scope="col">Course Title</th>
+                                <th scope="col" class="text-center">Duration</th>
+                                <th scope="col" class="text-center">Level</th>
+                                <th scope="col" class="text-center">Instructor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="course-title">Web Development Basics</td>
+                                <td class="text-center">3 Months</td>
+                                <td class="text-center">Beginner</td>
+                                <td class="text-center">John Doe</td>
+                            </tr>
+                            <tr>
+                                <td class="course-title">Advanced JavaScript</td>
+                                <td class="text-center">4 Months</td>
+                                <td class="text-center">Intermediate</td>
+                                <td class="text-center">Jane Smith</td>
+                            </tr>
+                            <tr>
+                                <td class="course-title">Data Structures</td>
+                                <td class="text-center">6 Months</td>
+                                <td class="text-center">Advanced</td>
+                                <td class="text-center">Chris Williams</td>
+                            </tr>
+                            <tr>
+                                <td class="course-title">Full Stack Development</td>
+                                <td class="text-center">8 Months</td>
+                                <td class="text-center">Expert</td>
+                                <td class="text-center">Emily Johnson</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             LEARNING PLAN FORM
+             Image left, form right. Image hidden below 768px.
+             ============================================ -->
+        <section id="learning-plan" class="py-section learning-plan">
+            <div class="container">
+                <div class="plan-header">
+                    <span class="section-eyebrow">Your Coding Journey</span>
+                    <h2 class="plan-title">Create A Learning Plan</h2>
+                </div>
+
+                <div class="row align-items-end g-5">
+                    <div class="col-md-6 d-none d-md-block">
+                        <img src="assets/student picture.png" alt="Student studying with books" class="plan-image">
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <form class="plan-form" action="#" method="post">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-plan-control" placeholder="Your Name" aria-label="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-plan-control" placeholder="Your Email" aria-label="Your Email" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-plan-control" placeholder="Learning Area" aria-label="Learning Area" required>
+                                </div>
+                                <div class="col-12">
+                                    <div class="select-wrap">
+                                        <select class="form-plan-select" aria-label="Your Goal" required>
+                                            <option value="" disabled selected>Your Goal (Choose an Option)</option>
+                                            <option value="web">Web Development</option>
+                                            <option value="mobile">Mobile Development</option>
+                                            <option value="data">Data Science</option>
+                                            <option value="uiux">UI/UX Design</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button type="submit" class="btn btn-orange btn-submit">Submit Now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             TESTIMONIALS CAROUSEL
+             Three slides. Arrows shown from 768px; touch swipe works on all sizes.
+             ============================================ -->
+        <section id="testimonials" class="py-section bg-white">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-eyebrow">Testimonials</span>
+                    <h2 class="section-title">What Our Students Say</h2>
+                </div>
+
+                <div id="studentSlider" class="carousel slide testimonial-slider" data-bs-ride="carousel" data-bs-touch="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <article class="testimonial-card">
+                                <div class="testimonial-body">
+                                    <div class="quote-badge"><i class="fa-solid fa-quote-left" aria-hidden="true"></i></div>
+                                    <p class="testimonial-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat vitae et culpa sit suscipit provident recusandae, esse, eaque doloremque laboriosam laudantium. Consequatur quos laboriosam tempore!</p>
+                                    <h3 class="testimonial-name">Isabella Hernandez</h3>
+                                    <p class="testimonial-role">Web Development Student</p>
+                                </div>
+                                <img src="assets/Isabella.png" alt="Isabella Hernandez" class="testimonial-face">
+                            </article>
+                        </div>
+
+                        <div class="carousel-item">
+                            <article class="testimonial-card">
+                                <div class="testimonial-body">
+                                    <div class="quote-badge"><i class="fa-solid fa-quote-left" aria-hidden="true"></i></div>
+                                    <p class="testimonial-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, enim animi, temporibus id fugiat consectetur debitis sequi aut beatae, ratione ea laboriosam maiores culpa voluptas.</p>
+                                    <h3 class="testimonial-name">Noah Williams</h3>
+                                    <p class="testimonial-role">Full Stack Developer</p>
+                                </div>
+                                <img src="assets/Noah.jpg" alt="Noah Williams" class="testimonial-face">
+                            </article>
+                        </div>
+
+                        <div class="carousel-item">
+                            <article class="testimonial-card">
+                                <div class="testimonial-body">
+                                    <div class="quote-badge"><i class="fa-solid fa-quote-left" aria-hidden="true"></i></div>
+                                    <p class="testimonial-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quod. Molestias laborum dolores, error, magnam sequi consequatur sunt, impedit omnis quasi quaerat deleniti id quas.</p>
+                                    <h3 class="testimonial-name">Sophia Anderson</h3>
+                                    <p class="testimonial-role">Data Science Enthusiast</p>
+                                </div>
+                                <img src="assets/zara.jpg" alt="Sophia Anderson" class="testimonial-face">
+                            </article>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev d-none d-md-flex" type="button" data-bs-target="#studentSlider" data-bs-slide="prev" aria-label="Previous testimonial">
+                        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                    </button>
+                    <button class="carousel-control-next d-none d-md-flex" type="button" data-bs-target="#studentSlider" data-bs-slide="next" aria-label="Next testimonial">
+                        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             CONTACT & MAP
+             Full-width map, three info cards overlapping it, two-column inquiry form.
+             ============================================ -->
+        <section id="contact" class="contact-section">
+            <iframe class="map-frame"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.223391312741!2d77.0494443!3d28.5028555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDMwJzEwLjMiTiA3N8KwMDInNTguMCJF!5e0!3m2!1sen!2sin!4v1625000000000!5m2!1sen!2sin"
+                    title="Coding Ninjas location on Google Maps"
+                    loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="container info-overlap">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <article class="info-card">
+                            <div class="info-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></div>
+                            <h3>Email Address</h3>
+                            <p class="info-value">john.doe@codingninjas.com</p>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <article class="info-card">
+                            <div class="info-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></div>
+                            <h3>Phone Number</h3>
+                            <p class="info-value">010-020-0340</p>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <article class="info-card">
+                            <div class="info-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></div>
+                            <h3>Address</h3>
+                            <p class="info-value">Haryana,India</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container inquiry">
+                <h2 class="inquiry-title text-center">Feel Free To Inquire About Our Coding Courses</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <form class="inquiry-form" action="#" method="post">
+                            <div class="row g-5">
+                                <div class="col-md-6">
+                                    <div class="floating-field">
+                                        <input type="text" class="field-control" id="field-name" placeholder=" " required>
+                                        <label for="field-name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="floating-field">
+                                        <input type="tel" class="field-control" id="field-phone" placeholder=" " required>
+                                        <label for="field-phone">Your Phone</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="floating-field">
+                                        <input type="email" class="field-control" id="field-email" placeholder=" " required>
+                                        <label for="field-email">Your E-mail</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="floating-field">
+                                        <input type="text" class="field-control" id="field-subject" placeholder=" " required>
+                                        <label for="field-subject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="floating-field">
+                                        <textarea class="field-control" id="field-message" rows="6" placeholder=" " required></textarea>
+                                        <label for="field-message">Your Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button type="submit" class="btn btn-orange btn-submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer-bottom">
+        <div class="container text-center">
+            <p class="mb-1">Copyright &copy; 2024 Coding Ninjas Co., Ltd. All Rights Reserved.</p>
+            <p class="mb-0">Designed by <span class="text-orange fw-bold">CodingNinjas</span></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
